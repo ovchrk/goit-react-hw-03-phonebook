@@ -1,0 +1,21 @@
+.box {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1.5px solid rgb(255, 233, 236);
+        border-radius: 10px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+
+}
+
+.input {
+        margin: 15px 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 350px;
+        padding: 6px;
+        border: 1.5px solid rgb(221, 216, 217);
+        border-radius: 5px;
+
+}

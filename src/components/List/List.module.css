@@ -1,0 +1,35 @@
+.box {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1.5px solid rgb(255, 233, 236);
+        border-radius: 10px;
+        list-style-type: none;
+
+}
+
+.input {
+        margin: 15px 0px;
+        width: 350px;
+        padding: 6px;
+        border: 1.5px solid rgb(221, 216, 217);
+        border-radius: 5px;
+
+}
+
+.contacts__item {
+        text-align: left;
+        font-size: medium;
+        color: rgb(45, 0, 7);
+        margin: 10px;
+        padding-left: 50px;
+}
+
+.button {
+        margin-left: 20px;
+        width: 80px;
+        padding: 6px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(255, 233, 236);
+}
