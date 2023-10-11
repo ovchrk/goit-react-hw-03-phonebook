@@ -32,3 +32,26 @@
         border-radius: 4px;
         background-color: rgb(255, 233, 236);
 }
+
+.gender__label {
+        margin: 10px;
+        line-height: 48px;
+        color: grey;
+}
+
+.gender__input {
+        position: relative;
+        top: 4px;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 30%;
+        border: 1px solid grey;
+        margin-left: 15px;
+}
+
+.gender__input:checked {
+        border: 2px solid pink;
+        background-color: rgb(255, 233, 236);
+
+}

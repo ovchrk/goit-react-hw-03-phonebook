@@ -33,3 +33,8 @@
         border-radius: 4px;
         background-color: rgb(255, 233, 236);
 }
+
+.gender {
+        padding-left: 7px;
+        color: grey;
+}

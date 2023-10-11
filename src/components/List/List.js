@@ -7,9 +7,10 @@ export const List = ({ filteredContacts, handleDelete }) => {
     <div>
       {filteredContacts.length > 0 ? (
         <ul className={css.box}>
-          {filteredContacts.map(({ id, name, number }) => (
+          {filteredContacts.map(({ id, name, number, gender }) => (
             <li key={id} className={css.contacts__item}>
               &#8728; {name}: {number}{' '}
+              {gender && <span className={css.gender}>({gender})</span>}
               <button
                 type="button"
                 className={css.button}
